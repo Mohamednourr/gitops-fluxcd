@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: nour-apps
 resources:
   - ns.yaml
-  #- deployment.yaml
+  - deployment.yaml
