@@ -12,6 +12,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: flux-system
+      version: 
   interval: 10s
   targetNamespace: default
   values:
@@ -21,6 +22,6 @@ spec:
       tag: 1.14.2
     labels:
       app: nginx
-    replicas: 3
+    replicas: 2
     service:
       port: 80
