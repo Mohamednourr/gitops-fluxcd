@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: nour-apps
 resources:
 - sources
-#- secret-store
+- secret-store
